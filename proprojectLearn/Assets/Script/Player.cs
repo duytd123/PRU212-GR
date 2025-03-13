@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     private Animator animator;
 
     [SerializeField] private float maxHp = 100f;
-    private float currentHp;
+    public static float currentHp;
     [SerializeField] private Image hpBar;
     private void Awake()// goi phuong thuc Awake lay tham chieu den thanh phan Rigidbody2D
     {
